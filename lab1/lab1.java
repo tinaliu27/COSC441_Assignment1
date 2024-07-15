@@ -6,12 +6,12 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Random; 
 
-// Tina Liu 29490737 and 
+// Tina Liu 29490737 and Oakley Pankratz 35649318
 
 public class lab1 {
     ArrayList<String> official_list_of_numbers = new ArrayList<>();  
-    public static final String NUMBERSIN= "numbers_in.txt"; 
-    public static final String NUMBERSOUT = "numbers_out.txt"; 
+    public static final String NUMBERSIN= "lab1/numbers_in.txt"; 
+    public static final String NUMBERSOUT = "lab1/numbers_out.txt"; 
     public static void main(String [] args) {
         lab1 lab = new lab1();
         lab.readNumbers(NUMBERSIN);
